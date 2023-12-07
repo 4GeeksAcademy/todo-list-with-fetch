@@ -11,3 +11,10 @@ import Home from "./component/home.jsx";
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
 
+// index.js
+ReactDOM.render(
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
